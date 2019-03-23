@@ -1,0 +1,5 @@
+{
+    "api_key": "Get Your API Key from https://api.nasa.gov/index.html#apply-for-an-api-key",
+    "start_date": "1995-06-16",
+    "target_url": "https://api.nasa.gov/planetary/apod"
+}
