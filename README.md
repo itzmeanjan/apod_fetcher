@@ -6,7 +6,7 @@ A Pythonic wayout to fetch Astronomy Picture of the Day from NASA and populate D
 
   1. A Local PostgreSQL Database is already setup, which will get populated by [apod_downloader.py](https://github.com/itzmeanjan/apod_fetcher/blob/master/apod_downloader.py) and [apod_updater.py](https://github.com/itzmeanjan/apod_fetcher/blob/master/apod_updater.py), these two scripts. Setup your local SQL database as below.
   
-   ```
+   ```sql
     nasa_apod=# \d apod_data
                          Table "public.apod_data"
      Column      |         Type          | Collation | Nullable | Default 
